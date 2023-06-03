@@ -1,13 +1,13 @@
 const cal = () => {
-    let cp = document.getElementById('cp').value;
-    let maths = document.getElementById('maths').value;
-    let acc = document.getElementById('acc').value;
-    let eng = document.getElementById('eng').value;
-    let mp = document.getElementById('mp').value;
+    let sub1 = document.getElementById('sub1').value;
+    let sub2 = document.getElementById('sub2').value;
+    let sub3 = document.getElementById('sub3').value;
+    let sub4 = document.getElementById('sub4').value;
+    let sub5 = document.getElementById('sub5').value;
     let grades = "";
     let fullmarks=500;
 
-    let totalgrades = parseFloat(cp) + parseFloat(maths) + parseFloat(acc) + parseFloat(eng) + parseFloat(mp);
+    let totalgrades = parseFloat(sub1) + parseFloat(sub2) + parseFloat(sub3) + parseFloat(sub4) + parseFloat(sub5);
     // alert(totalgrades);
 
     let percent = (totalgrades / fullmarks) * 100;
